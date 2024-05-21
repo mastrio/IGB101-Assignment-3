@@ -32457,7 +32457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5799152183835864317, guid: aeb309c4f41049246af8503631ee6f9c, type: 3}
       propertyPath: nextLevel
-      value: My Awesome Scene
+      value: IGB101 Assignment 1 Brian K
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
