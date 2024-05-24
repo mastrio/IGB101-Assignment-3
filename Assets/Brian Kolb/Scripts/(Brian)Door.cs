@@ -10,7 +10,7 @@ public class DoorTest : MonoBehaviour
     void Start()
     {
         door = GetComponent<Animation>();
-        GetComponent<Animation>();
+        door["DoorOpen"].layer = 1;
     }
 
     // Update is called once per frame
@@ -19,13 +19,13 @@ public class DoorTest : MonoBehaviour
         if (Input.GetKeyDown("f"))
         {
             if (Closed == true)
-            {
-                door.Play();
+            {   
+                door.Play("DoorOpen");
                 Closed = false;
             }
             else if (Closed == false)
             {
-                door.Play();
+                door.Play("DoorClose");
                 Closed = true;
             }
         }

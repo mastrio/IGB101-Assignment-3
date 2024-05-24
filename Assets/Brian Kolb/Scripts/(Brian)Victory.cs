@@ -8,8 +8,6 @@ public class Victory : MonoBehaviour{
 
     public Animator anim;
 
-    public float rotSpeed = 10;
-
     GameManager gameManager;
 
     public bool OnceOnly = true;
@@ -27,7 +25,7 @@ public class Victory : MonoBehaviour{
     }
     private void Celebrate()
     {
-        if (gameManager.levelComplete)
+        if (gameManager.levelComplete == true)
         {
             if (OnceOnly == true)
                 {
