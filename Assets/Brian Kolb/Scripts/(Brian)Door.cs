@@ -5,12 +5,11 @@ using UnityEngine;
 public class DoorTest : MonoBehaviour
 {
     public bool Closed = true;
-    Animation door;
+    Animation dooranim;
     // Start is called before the first frame update
     void Start()
     {
-        door = GetComponent<Animation>();
-        door["DoorOpen"].layer = 1;
+        dooranim = GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -19,13 +18,13 @@ public class DoorTest : MonoBehaviour
         if (Input.GetKeyDown("f"))
         {
             if (Closed == true)
-            {   
-                door.Play("DoorOpen");
+            {
+                dooranim.Play("DoorOpen");
                 Closed = false;
             }
             else if (Closed == false)
             {
-                door.Play("DoorClose");
+                dooranim.Play("DoorClose");
                 Closed = true;
             }
         }
