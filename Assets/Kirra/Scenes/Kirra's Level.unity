@@ -432,11 +432,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &171223242
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 171223240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a4153e8680394296e8f75aceb6ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2206a7f5e5c5b4b8a64cb1b40c51d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &237926441
@@ -906,7 +906,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -988,7 +988,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 337047312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a4153e8680394296e8f75aceb6ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2206a7f5e5c5b4b8a64cb1b40c51d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &359823249
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 369751512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39d7cb1f7aa15304ca069dabfe2dc04d, type: 3}
+  m_Script: {fileID: 11500000, guid: 71310e344ed38224d8c5f77e70cb2d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 369751515}
@@ -1146,6 +1146,11 @@ CharacterController:
 --- !u!95 &369751515 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2664611327364787940, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
+  m_PrefabInstance: {fileID: 1000356332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &369751516 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2664611327373836644, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
   m_PrefabInstance: {fileID: 1000356332}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &385918142
@@ -1427,11 +1432,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &504859813
@@ -1508,7 +1513,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 504859811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a4153e8680394296e8f75aceb6ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2206a7f5e5c5b4b8a64cb1b40c51d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &547489826
@@ -6913,11 +6918,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &766468209
@@ -6994,7 +6999,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 766468207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a4153e8680394296e8f75aceb6ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2206a7f5e5c5b4b8a64cb1b40c51d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &827384250
@@ -7233,17 +7238,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 843920519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35e486aecc6cb0546aeb4ba3033cafb1, type: 3}
+  m_Script: {fileID: 11500000, guid: ff4b31cde45702f44a3d268d2eb8c465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 369751512}
-  currentPickups: 0
-  maxPickups: 8
-  levelComplete: 1
   pickupText: {fileID: 1028235436}
   audioSources:
   - {fileID: 704519265}
   audioProximity: 5
+  currentPickups: 0
+  maxPickups: 8
+  levelComplete: 0
 --- !u!4 &843920521
 Transform:
   m_ObjectHideFlags: 0
@@ -20617,7 +20622,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20698,14 +20703,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1512422630}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a4153e8680394296e8f75aceb6ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2206a7f5e5c5b4b8a64cb1b40c51d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1530257150 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1956471347963296720, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
-  m_PrefabInstance: {fileID: 1000356332}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1548558926
 GameObject:
   m_ObjectHideFlags: 0
@@ -20952,11 +20952,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1588989443
@@ -21033,7 +21033,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1588989441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a4153e8680394296e8f75aceb6ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2206a7f5e5c5b4b8a64cb1b40c51d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1590064818
@@ -26250,24 +26250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7e101f3f743c2a4d89db7791fc3df56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraNodes:
-  - {fileID: 1810065823}
-  - {fileID: 418406807}
-  - {fileID: 1317723185}
-  - {fileID: 547489826}
-  - {fileID: 38627822}
-  - {fileID: 260019181}
-  - {fileID: 1779582547}
-  objects:
-  - {fileID: 766468207}
-  - {fileID: 1588989441}
-  - {fileID: 171223240}
-  - {fileID: 504859811}
-  - {fileID: 2025929907}
-  - {fileID: 2047404227}
-  - {fileID: 337047312}
-  moveSpeed: 5
-  rotSpeed: 5
 --- !u!1 &1869670652
 GameObject:
   m_ObjectHideFlags: 0
@@ -26414,11 +26396,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2025929909
@@ -26495,7 +26477,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2025929907}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a4153e8680394296e8f75aceb6ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2206a7f5e5c5b4b8a64cb1b40c51d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2040782294
@@ -26643,11 +26625,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2047404229
@@ -26724,7 +26706,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2047404227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a4153e8680394296e8f75aceb6ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: bf2206a7f5e5c5b4b8a64cb1b40c51d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2051588070
@@ -26882,10 +26864,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2059320385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 924bd0aba4c94f64d93b5109a0ca3b81, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ce899efb30f1e942b182257b99fbfbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: Demo Dungeons
+  nextLevel: 
 --- !u!23 &2059320388
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27012,18 +26994,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2134816633}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0957cbbaa1b16f44bc03fb8c087559c, type: 3}
+  m_Script: {fileID: 11500000, guid: 697b5d040c15d2a4b87c674bd5a87707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraTarget: {fileID: 1530257150}
+  CameraTarget: {fileID: 369751516}
   cameraSpeed: 5
   invert: 0
-  upAngleView: 45
+  upAngleView: 75
   downAngleView: 65
   MaxViewDistance: 15
-  MinViewDistance: 5
-  ZoomRate: 20
-  cameraTargetHeight: 0
+  MinViewDistance: 1
+  ZoomRate: 10
+  cameraTargetHeight: 3
 --- !u!81 &2134816635
 AudioListener:
   m_ObjectHideFlags: 0
