@@ -126,10 +126,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2664611327374138500}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39d7cb1f7aa15304ca069dabfe2dc04d, type: 3}
+  m_Script: {fileID: 11500000, guid: 71310e344ed38224d8c5f77e70cb2d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 2664611327364787940}
+  anim: {fileID: 0}
   rotSpeed: 10
 --- !u!1 &2664611327374138502
 GameObject:
