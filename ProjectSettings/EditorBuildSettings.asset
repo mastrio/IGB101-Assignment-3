@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Brian Kolb/Scenes/Brian.unity
+    guid: abbf4e79b575bfd4a94f200c2c548908
+  - enabled: 1
     path: Assets/Hayden Clark/Scenes/My Awesome Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Jordan Chan/Demo Scenes/Demo Dungeons.unity
+    guid: d1068c520c1ff8841a645fd55985adcd
+  - enabled: 1
+    path: Assets/Kirra/Scenes/Kirra's Level.unity
+    guid: f74ea232b0db7614e95ce80fe8d33336
   m_configObjects: {}
