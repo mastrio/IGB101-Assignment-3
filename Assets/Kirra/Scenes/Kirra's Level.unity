@@ -1136,7 +1136,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 1.5
+  m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -7247,7 +7247,7 @@ MonoBehaviour:
   - {fileID: 704519265}
   audioProximity: 5
   currentPickups: 0
-  maxPickups: 8
+  maxPickups: 1
   levelComplete: 0
 --- !u!4 &843920521
 Transform:
@@ -7397,7 +7397,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: d8a1c5754f1deb2489113acd74c5e2ee, type: 2}
     - target: {fileID: 2664611327373836644, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2664611327373836644, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26871,7 +26871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ce899efb30f1e942b182257b99fbfbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: IGB101 Assignment Brian Kolb
+  nextLevel: My Awesome Scene
 --- !u!23 &2059320388
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27295,6 +27295,10 @@ PrefabInstance:
     - target: {fileID: 3509241324839825372, guid: 02f9425ad5944ce4690a4566483cc3f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534822667284108148, guid: 02f9425ad5944ce4690a4566483cc3f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.285
       objectReference: {fileID: 0}
     - target: {fileID: 3550161473185069111, guid: 02f9425ad5944ce4690a4566483cc3f4, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -27976,6 +27980,7 @@ PrefabInstance:
     - {fileID: 5467532898860464083, guid: 02f9425ad5944ce4690a4566483cc3f4, type: 3}
     - {fileID: 6729942667239897873, guid: 02f9425ad5944ce4690a4566483cc3f4, type: 3}
     - {fileID: 2666787030439431876, guid: 02f9425ad5944ce4690a4566483cc3f4, type: 3}
+    - {fileID: 7233082435971474028, guid: 02f9425ad5944ce4690a4566483cc3f4, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5659171366551534715, guid: 02f9425ad5944ce4690a4566483cc3f4, type: 3}
       insertIndex: 2
