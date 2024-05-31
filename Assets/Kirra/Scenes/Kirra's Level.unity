@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 1502887207}
   m_IndirectSpecularColor: {r: 0.6595959, g: 0.6659533, b: 0.83179355, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 3d3a8e2133698d843adbea238156c222, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: befb06910dc1b0c408592313fccb4dea, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -7247,7 +7247,7 @@ MonoBehaviour:
   - {fileID: 704519265}
   audioProximity: 5
   currentPickups: 0
-  maxPickups: 1
+  maxPickups: 7
   levelComplete: 0
 --- !u!4 &843920521
 Transform:
@@ -26251,9 +26251,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1815312571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7e101f3f743c2a4d89db7791fc3df56, type: 3}
+  m_Script: {fileID: 11500000, guid: 24693f37a7170c54eb6b9e0b1c70946a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraNodes: []
+  objects: []
+  moveSpeed: 5
+  rotSpeed: 5
 --- !u!1 &1869670652
 GameObject:
   m_ObjectHideFlags: 0
