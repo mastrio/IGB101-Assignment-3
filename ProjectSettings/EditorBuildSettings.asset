@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Brian Kolb/Scenes/Brian.unity
     guid: abbf4e79b575bfd4a94f200c2c548908
   - enabled: 1
-    path: Assets/Hayden Clark/Scenes/My Awesome Scene.unity
+    path: Assets/Hayden Clark/Scenes/HaydenScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Jordan Chan/Demo Scenes/Demo Dungeons.unity
