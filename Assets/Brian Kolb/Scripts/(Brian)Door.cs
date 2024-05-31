@@ -17,12 +17,12 @@ public class DoorTest : MonoBehaviour
     {
         if (Input.GetKeyDown("f"))
         {
-            if (Closed == true)
+            if (Closed == true)//Opens door if it's closed
             {
                 dooranim.Play("DoorOpen");
                 Closed = false;
             }
-            else if (Closed == false)
+            else if (Closed == false)//and vice versa
             {
                 dooranim.Play("DoorClose");
                 Closed = true;

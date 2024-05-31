@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        //Preloads audio to prevent lag, mostly for my Claire de Lune music clip - Brian
+        //Preloads audio at start of scene to prevent lag, mostly for my Claire de Lune music clip - Brian
         foreach (AudioSource source in audioSources)
         {
             source.clip.LoadAudioData();

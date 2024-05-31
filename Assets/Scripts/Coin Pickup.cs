@@ -19,9 +19,9 @@ public class CoinPickup : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.transform.tag == "Player")
+        if (other.transform.tag == "Player")//Plays audio when attached object collides with player.
         {
-            AudioSource.PlayClipAtPoint(clip, new Vector3(0, 0, 0));
+            AudioSource.PlayClipAtPoint(clip, new Vector3(0, 0, 0));//PlayClipAtPoint creates another object to play the audio from as the pickup objects are destroyed
         }
     }
 }

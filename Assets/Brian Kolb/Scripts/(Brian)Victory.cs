@@ -27,9 +27,9 @@ public class Victory : MonoBehaviour{
     {
         if (gameManager.levelComplete == true)
         {
-            if (OnceOnly == true)
+            if (OnceOnly == true)//Only plays the animation once
                 {
-                anim.SetBool("Victory", true);
+                anim.SetBool("Victory", true);//Plays victory animation when level is complete
                 OnceOnly = false;
             }
             else

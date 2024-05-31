@@ -19,7 +19,7 @@ public class Stars : MonoBehaviour
     }
     private void StarCheck()
     {
-        if (gameManager.levelComplete == true)
+        if (gameManager.levelComplete == true)//Plays particle system when level is complete
         {
             stars.Play();
         }
